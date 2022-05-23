@@ -9,6 +9,8 @@
 *.p
 *.pyc
 *~
+larc_log*
+experimentOutputs/
 __pycache__
 _build
 jobs

@@ -1,0 +1,229 @@
+task,program,pass
+0520fde7.json,(lambda (overlap_split_blocks (split_grid $0 false) (lambda (lambda (color_logical $0 $1 red land))))),True
+0520fde7.json,(lambda (overlap_split_blocks (split_grid $0 false) (lambda (lambda (color_logical $0 $1 red land))))),True
+0520fde7.json,(lambda (overlap_split_blocks (split_grid $0 false) (lambda (lambda (color_logical $0 $1 red land))))),True
+0b148d64.json,(lambda (to_min_grid (remove_black_b (remove_color (grid_to_block $0) (nth_primary_color (grid_to_block $0) 1))) true)),True
+0b148d64.json,(lambda (to_min_grid (remove_black_b (remove_color (grid_to_block $0) (nth_primary_color (grid_to_block $0) 1))) true)),True
+0b148d64.json,(lambda (to_min_grid (remove_black_b (remove_color (grid_to_block $0) (nth_primary_color (grid_to_block $0) 1))) true)),True
+1cf80156.json,(lambda (to_min_grid (remove_black_b (grid_to_block $0)) false)),True
+1cf80156.json,(lambda (to_min_grid (remove_black_b (grid_to_block $0)) false)),True
+1cf80156.json,(lambda (to_min_grid (remove_black_b (grid_to_block $0)) false)),True
+1f85a75f.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 true true) (lambda (get_num_tiles $0)) false) true)),True
+1f85a75f.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 true true) (lambda (get_num_tiles $0)) false) true)),True
+1f85a75f.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 true true) (lambda (get_num_tiles $0)) false) true)),True
+1f85a75f.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 false false) (lambda (get_num_tiles $0)) false) false)),True
+1f85a75f.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 false false) (lambda (get_num_tiles $0)) false) false)),True
+1f85a75f.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 false false) (lambda (get_num_tiles $0)) false) false)),True
+22168020.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (extend_until_touches_block $0 (merge_blocks (tiles_to_blocks (find_tiles_by_black_b $1)) false) false))) true true)),False
+22168020.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (extend_until_touches_block $0 (merge_blocks (tiles_to_blocks (find_tiles_by_black_b $1)) false) false))) true true)),False
+22168020.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (extend_until_touches_block $0 (merge_blocks (tiles_to_blocks (find_tiles_by_black_b $1)) false) false))) true true)),False
+22eb0ac0.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (extend_towards_until_edge $0 east))) true false)),True
+22eb0ac0.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (extend_towards_until_edge $0 east))) true false)),True
+22eb0ac0.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (extend_towards_until_edge $0 east))) true false)),True
+23b5c85d.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 true true) (lambda (get_height $0)) true) false)),True
+23b5c85d.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 true true) (lambda (get_height $0)) true) false)),True
+23b5c85d.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 true true) (lambda (get_height $0)) true) false)),True
+25ff71a9.json,(lambda (to_original_grid_overlay (move (grid_to_block $0) 1 south false) false)),True
+25ff71a9.json,(lambda (to_original_grid_overlay (move (grid_to_block $0) 1 south false) false)),True
+25ff71a9.json,(lambda (to_original_grid_overlay (move (grid_to_block $0) 1 south false) false)),True
+28bf18c6.json,(lambda (to_min_grid (duplicate (box_block (remove_black_b (grid_to_block $0))) east 1) false)),True
+28bf18c6.json,(lambda (to_min_grid (duplicate (box_block (remove_black_b (grid_to_block $0))) east 1) false)),True
+28bf18c6.json,(lambda (to_min_grid (duplicate (box_block (remove_black_b (grid_to_block $0))) east 1) false)),True
+28bf18c6.json,(lambda (to_min_grid (remove_black_b (move (grid_to_block $0) 3 east true)) true)),True
+28bf18c6.json,(lambda (to_min_grid (remove_black_b (move (grid_to_block $0) 3 east true)) true)),True
+28bf18c6.json,(lambda (to_min_grid (remove_black_b (move (grid_to_block $0) 3 east true)) true)),True
+39a8645d.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 true false) (lambda 1) true) false)),False
+39a8645d.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 true false) (lambda 1) true) false)),False
+39a8645d.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 true false) (lambda 1) true) false)),False
+3aa6fb7a.json,(lambda (to_original_grid_overlay (replace_color (merge_blocks (find_same_color_blocks $0 false true) false) black blue) false)),True
+3aa6fb7a.json,(lambda (to_original_grid_overlay (replace_color (merge_blocks (find_same_color_blocks $0 false true) false) black blue) false)),True
+3aa6fb7a.json,(lambda (to_original_grid_overlay (replace_color (merge_blocks (find_same_color_blocks $0 false true) false) black blue) false)),True
+3aa6fb7a.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (merge_blocks (find_same_color_blocks $0 true true) false) blue) (lambda (negate_boolean (tile_overlaps_block $0 (remove_black_b (grid_to_block $1)))))) true)),True
+3aa6fb7a.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (merge_blocks (find_same_color_blocks $0 true true) false) blue) (lambda (negate_boolean (tile_overlaps_block $0 (remove_black_b (grid_to_block $1)))))) true)),True
+3aa6fb7a.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (merge_blocks (find_same_color_blocks $0 true true) false) blue) (lambda (negate_boolean (tile_overlaps_block $0 (remove_black_b (grid_to_block $1)))))) true)),True
+3c9b0459.json,(lambda (to_min_grid (reflect (reflect (grid_to_block $0) false) true) false)),True
+3c9b0459.json,(lambda (to_min_grid (reflect (reflect (grid_to_block $0) false) true) false)),True
+3c9b0459.json,(lambda (to_min_grid (reflect (reflect (grid_to_block $0) false) true) false)),True
+4258a5f9.json,(lambda (to_original_grid_overlay (wrap_block (remove_black_b (grid_to_block $0)) blue true) false)),True
+4258a5f9.json,(lambda (to_original_grid_overlay (wrap_block (remove_black_b (grid_to_block $0)) blue true) false)),True
+4258a5f9.json,(lambda (to_original_grid_overlay (wrap_block (remove_black_b (grid_to_block $0)) blue true) false)),True
+4347f46a.json,(lambda (to_original_grid_overlay (filter_block_tiles (remove_black_b (grid_to_block $0)) (lambda (is_exterior $0 false))) false)),True
+4347f46a.json,(lambda (to_original_grid_overlay (filter_block_tiles (remove_black_b (grid_to_block $0)) (lambda (is_exterior $0 false))) false)),True
+4347f46a.json,(lambda (to_original_grid_overlay (filter_block_tiles (remove_black_b (grid_to_block $0)) (lambda (is_exterior $0 false))) false)),True
+48d8fb45.json,(lambda (to_min_grid (remove_color (first_of_sorted_object_list (find_blocks_by_inferred_b $0 true false) (lambda (get_num_tiles $0)) false) grey) false)),True
+48d8fb45.json,(lambda (to_min_grid (remove_color (first_of_sorted_object_list (find_blocks_by_inferred_b $0 true false) (lambda (get_num_tiles $0)) false) grey) false)),True
+48d8fb45.json,(lambda (to_min_grid (remove_color (first_of_sorted_object_list (find_blocks_by_inferred_b $0 true false) (lambda (get_num_tiles $0)) false) grey) false)),True
+49d1d64f.json,(lambda (to_min_grid (wrap_block (grid_to_block $0) black false) false)),True
+49d1d64f.json,(lambda (to_min_grid (wrap_block (grid_to_block $0) black false) false)),True
+49d1d64f.json,(lambda (to_min_grid (wrap_block (grid_to_block $0) black false) false)),True
+4c4377d9.json,(lambda (to_min_grid (move (reflect (grid_to_block $0) true) 3 north true) true)),True
+4c4377d9.json,(lambda (to_min_grid (move (reflect (grid_to_block $0) true) 3 north true) true)),True
+4c4377d9.json,(lambda (to_min_grid (move (reflect (grid_to_block $0) true) 3 north true) true)),True
+4c4377d9.json,(lambda (to_min_grid (remove_black_b (move (box_block (remove_black_b (reflect (grid_to_block $0) true))) 3 north true)) true)),True
+4c4377d9.json,(lambda (to_min_grid (remove_black_b (move (box_block (remove_black_b (reflect (grid_to_block $0) true))) 3 north true)) true)),True
+4c4377d9.json,(lambda (to_min_grid (remove_black_b (move (box_block (remove_black_b (reflect (grid_to_block $0) true))) 3 north true)) true)),True
+4c4377d9.json,(lambda (to_min_grid (box_block (move (reflect (grid_to_block $0) true) 3 north true)) true)),True
+4c4377d9.json,(lambda (to_min_grid (box_block (move (reflect (grid_to_block $0) true) 3 north true)) true)),True
+4c4377d9.json,(lambda (to_min_grid (box_block (move (reflect (grid_to_block $0) true) 3 north true)) true)),True
+50cb2852.json,(lambda (to_original_grid_overlay (fill_color (filter_block_tiles (remove_black_b (grid_to_block $0)) (lambda (is_interior $0 true))) teal) true)),True
+50cb2852.json,(lambda (to_original_grid_overlay (fill_color (filter_block_tiles (remove_black_b (grid_to_block $0)) (lambda (is_interior $0 true))) teal) true)),True
+50cb2852.json,(lambda (to_original_grid_overlay (fill_color (filter_block_tiles (remove_black_b (grid_to_block $0)) (lambda (is_interior $0 true))) teal) true)),True
+5582e5ca.json,(lambda (to_min_grid (fill_color (grid_to_block $0) (nth_primary_color (grid_to_block $0) 0)) false)),True
+5582e5ca.json,(lambda (to_min_grid (fill_color (grid_to_block $0) (nth_primary_color (grid_to_block $0) 0)) false)),True
+5582e5ca.json,(lambda (to_min_grid (fill_color (grid_to_block $0) (nth_primary_color (grid_to_block $0) 0)) false)),True
+60b61512.json,(lambda (to_original_grid_overlay (replace_color (merge_blocks (find_same_color_blocks $0 true true) false) black orange) false)),True
+60b61512.json,(lambda (to_original_grid_overlay (replace_color (merge_blocks (find_same_color_blocks $0 true true) false) black orange) false)),True
+60b61512.json,(lambda (to_original_grid_overlay (replace_color (merge_blocks (find_same_color_blocks $0 true true) false) black orange) false)),True
+60b61512.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (merge_blocks (find_same_color_blocks $0 true true) false) orange) (lambda (negate_boolean (tile_overlaps_block $0 (remove_black_b (grid_to_block $1)))))) true)),True
+60b61512.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (merge_blocks (find_same_color_blocks $0 true true) false) orange) (lambda (negate_boolean (tile_overlaps_block $0 (remove_black_b (grid_to_block $1)))))) true)),True
+60b61512.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (merge_blocks (find_same_color_blocks $0 true true) false) orange) (lambda (negate_boolean (tile_overlaps_block $0 (remove_black_b (grid_to_block $1)))))) true)),True
+67385a82.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (remove_black_b (grid_to_block $0)) teal) (lambda (negate_boolean (tile_overlaps_block $0 (merge_blocks (tiles_to_blocks (find_tiles_by_black_b $1)) false))))) true)),True
+67385a82.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (remove_black_b (grid_to_block $0)) teal) (lambda (negate_boolean (tile_overlaps_block $0 (merge_blocks (tiles_to_blocks (find_tiles_by_black_b $1)) false))))) true)),True
+67385a82.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (remove_black_b (grid_to_block $0)) teal) (lambda (negate_boolean (tile_overlaps_block $0 (merge_blocks (tiles_to_blocks (find_tiles_by_black_b $1)) false))))) true)),True
+67a3c6ac.json,(lambda (to_min_grid (reflect (grid_to_block $0) false) false)),True
+67a3c6ac.json,(lambda (to_min_grid (reflect (grid_to_block $0) false) false)),True
+67a3c6ac.json,(lambda (to_min_grid (reflect (grid_to_block $0) false) false)),True
+67e8384a.json,(lambda (to_min_grid (reflect (remove_black_b (move (reflect (remove_black_b (move (reflect (grid_to_block $0) true) 3 south true)) false) 3 east true)) true) true)),True
+67e8384a.json,(lambda (to_min_grid (reflect (remove_black_b (move (reflect (remove_black_b (move (reflect (grid_to_block $0) true) 3 south true)) false) 3 east true)) true) true)),True
+67e8384a.json,(lambda (to_min_grid (reflect (remove_black_b (move (reflect (remove_black_b (move (reflect (grid_to_block $0) true) 3 south true)) false) 3 east true)) true) true)),True
+68b16354.json,(lambda (to_min_grid (reflect (grid_to_block $0) true) false)),True
+68b16354.json,(lambda (to_min_grid (reflect (grid_to_block $0) true) false)),True
+68b16354.json,(lambda (to_min_grid (reflect (grid_to_block $0) true) false)),True
+6d0aefbc.json,(lambda (to_min_grid (remove_black_b (move (reflect (grid_to_block $0) false) 3 east true)) false)),True
+6d0aefbc.json,(lambda (to_min_grid (remove_black_b (move (reflect (grid_to_block $0) false) 3 east true)) false)),True
+6d0aefbc.json,(lambda (to_min_grid (remove_black_b (move (reflect (grid_to_block $0) false) 3 east true)) false)),True
+6d75e8bb.json,(lambda (to_original_grid_overlay (replace_color (merge_blocks (find_same_color_blocks $0 false true) false) black red) false)),True
+6d75e8bb.json,(lambda (to_original_grid_overlay (replace_color (merge_blocks (find_same_color_blocks $0 false true) false) black red) false)),True
+6d75e8bb.json,(lambda (to_original_grid_overlay (replace_color (merge_blocks (find_same_color_blocks $0 false true) false) black red) false)),True
+6d75e8bb.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (first_of_sorted_object_list (find_same_color_blocks $0 true true) (lambda (get_num_tiles $0)) false) red) (lambda (negate_boolean (tile_overlaps_block $0 (remove_black_b (grid_to_block $1)))))) true)),True
+6d75e8bb.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (first_of_sorted_object_list (find_same_color_blocks $0 true true) (lambda (get_num_tiles $0)) false) red) (lambda (negate_boolean (tile_overlaps_block $0 (remove_black_b (grid_to_block $1)))))) true)),True
+6d75e8bb.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (first_of_sorted_object_list (find_same_color_blocks $0 true true) (lambda (get_num_tiles $0)) false) red) (lambda (negate_boolean (tile_overlaps_block $0 (remove_black_b (grid_to_block $1)))))) true)),True
+6d75e8bb.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (merge_blocks (find_same_color_blocks $0 true true) false) red) (lambda (negate_boolean (tile_overlaps_block $0 (remove_black_b (grid_to_block $1)))))) true)),True
+6d75e8bb.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (merge_blocks (find_same_color_blocks $0 true true) false) red) (lambda (negate_boolean (tile_overlaps_block $0 (remove_black_b (grid_to_block $1)))))) true)),True
+6d75e8bb.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (merge_blocks (find_same_color_blocks $0 true true) false) red) (lambda (negate_boolean (tile_overlaps_block $0 (remove_black_b (grid_to_block $1)))))) true)),True
+6f8cd79b.json,(lambda (to_min_grid (filter_block_tiles (fill_color (grid_to_block $0) teal) (lambda (is_exterior $0 true))) false)),True
+6f8cd79b.json,(lambda (to_min_grid (filter_block_tiles (fill_color (grid_to_block $0) teal) (lambda (is_exterior $0 true))) false)),True
+6f8cd79b.json,(lambda (to_min_grid (filter_block_tiles (fill_color (grid_to_block $0) teal) (lambda (is_exterior $0 true))) false)),True
+6f8cd79b.json,(lambda (to_min_grid (fill_color (filter_block_tiles (grid_to_block $0) (lambda (is_exterior $0 true))) teal) true)),True
+6f8cd79b.json,(lambda (to_min_grid (fill_color (filter_block_tiles (grid_to_block $0) (lambda (is_exterior $0 true))) teal) true)),True
+6f8cd79b.json,(lambda (to_min_grid (fill_color (filter_block_tiles (grid_to_block $0) (lambda (is_exterior $0 true))) teal) true)),True
+6f8cd79b.json,(lambda (to_min_grid (fill_color (filter_block_tiles (grid_to_block $0) (lambda (is_exterior $0 false))) teal) false)),True
+6f8cd79b.json,(lambda (to_min_grid (fill_color (filter_block_tiles (grid_to_block $0) (lambda (is_exterior $0 false))) teal) false)),True
+6f8cd79b.json,(lambda (to_min_grid (fill_color (filter_block_tiles (grid_to_block $0) (lambda (is_exterior $0 false))) teal) false)),True
+6fa7a44f.json,(lambda (to_min_grid (move (reflect (grid_to_block $0) true) 3 south true) true)),True
+6fa7a44f.json,(lambda (to_min_grid (move (reflect (grid_to_block $0) true) 3 south true) true)),True
+6fa7a44f.json,(lambda (to_min_grid (move (reflect (grid_to_block $0) true) 3 south true) true)),True
+6fa7a44f.json,(lambda (to_min_grid (remove_black_b (move (reflect (grid_to_block $0) true) 3 south true)) false)),True
+6fa7a44f.json,(lambda (to_min_grid (remove_black_b (move (reflect (grid_to_block $0) true) 3 south true)) false)),True
+6fa7a44f.json,(lambda (to_min_grid (remove_black_b (move (reflect (grid_to_block $0) true) 3 south true)) false)),True
+6fa7a44f.json,(lambda (to_min_grid (box_block (move (reflect (grid_to_block $0) true) 3 south true)) true)),True
+6fa7a44f.json,(lambda (to_min_grid (box_block (move (reflect (grid_to_block $0) true) 3 south true)) true)),True
+6fa7a44f.json,(lambda (to_min_grid (box_block (move (reflect (grid_to_block $0) true) 3 south true)) true)),True
+72ca375d.json,(lambda (to_min_grid (singleton_block (filter_blocks (find_same_color_blocks $0 true true) (lambda (is_symmetrical $0 false)))) true)),True
+72ca375d.json,(lambda (to_min_grid (singleton_block (filter_blocks (find_same_color_blocks $0 true true) (lambda (is_symmetrical $0 false)))) true)),True
+72ca375d.json,(lambda (to_min_grid (singleton_block (filter_blocks (find_same_color_blocks $0 true true) (lambda (is_symmetrical $0 false)))) true)),True
+88a10436.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (center_block_on_tile (first_of_sorted_object_list (find_blocks_by_inferred_b $1 true false) (lambda (get_num_tiles $0)) false) $0))) true true)),True
+88a10436.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (center_block_on_tile (first_of_sorted_object_list (find_blocks_by_inferred_b $1 true false) (lambda (get_num_tiles $0)) false) $0))) true true)),True
+88a10436.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (center_block_on_tile (first_of_sorted_object_list (find_blocks_by_inferred_b $1 true false) (lambda (get_num_tiles $0)) false) $0))) true true)),True
+88a62173.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 true false) (lambda (get_num_tiles $0)) (negate_boolean (has_color (grid_to_block $0) blue))) false)),True
+88a62173.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 true false) (lambda (get_num_tiles $0)) (negate_boolean (has_color (grid_to_block $0) blue))) false)),True
+88a62173.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 true false) (lambda (get_num_tiles $0)) (negate_boolean (has_color (grid_to_block $0) blue))) false)),True
+8efcae92.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 true true) (lambda (get_num_tiles (remove_color $0 blue))) false) false)),True
+8efcae92.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 true true) (lambda (get_num_tiles (remove_color $0 blue))) false) false)),True
+8efcae92.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 true true) (lambda (get_num_tiles (remove_color $0 blue))) false) false)),True
+8efcae92.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 false true) (lambda (get_num_tiles (remove_color $0 blue))) false) false)),True
+8efcae92.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 false true) (lambda (get_num_tiles (remove_color $0 blue))) false) false)),True
+8efcae92.json,(lambda (to_min_grid (first_of_sorted_object_list (find_same_color_blocks $0 false true) (lambda (get_num_tiles (remove_color $0 blue))) false) false)),True
+9172f3a0.json,(lambda (to_min_grid (grow (grid_to_block $0) 2) false)),True
+9172f3a0.json,(lambda (to_min_grid (grow (grid_to_block $0) 2) false)),True
+9172f3a0.json,(lambda (to_min_grid (grow (grid_to_block $0) 2) false)),True
+9565186b.json,(lambda (to_original_grid_overlay (fill_color (merge_blocks (find_blocks_by_inferred_b $0 true false) true) grey) true)),True
+9565186b.json,(lambda (to_original_grid_overlay (fill_color (merge_blocks (find_blocks_by_inferred_b $0 true false) true) grey) true)),True
+9565186b.json,(lambda (to_original_grid_overlay (fill_color (merge_blocks (find_blocks_by_inferred_b $0 true false) true) grey) true)),True
+99b1bc43.json,(lambda (overlap_split_blocks (split_grid $0 true) (lambda (lambda (color_logical $0 $1 green lxor))))),True
+99b1bc43.json,(lambda (overlap_split_blocks (split_grid $0 true) (lambda (lambda (color_logical $0 $1 green lxor))))),True
+99b1bc43.json,(lambda (overlap_split_blocks (split_grid $0 true) (lambda (lambda (color_logical $0 $1 green lxor))))),True
+9ecd008a.json,(lambda (to_min_grid (filter_block_tiles (remove_black_b (reflect (grid_to_block $0) false)) (lambda (negate_boolean (tile_overlaps_block $0 (remove_black_b (grid_to_block $1)))))) false)),True
+9ecd008a.json,(lambda (to_min_grid (filter_block_tiles (remove_black_b (reflect (grid_to_block $0) false)) (lambda (negate_boolean (tile_overlaps_block $0 (remove_black_b (grid_to_block $1)))))) false)),True
+9ecd008a.json,(lambda (to_min_grid (filter_block_tiles (remove_black_b (reflect (grid_to_block $0) false)) (lambda (negate_boolean (tile_overlaps_block $0 (remove_black_b (grid_to_block $1)))))) false)),True
+a416b8f3.json,(lambda (to_min_grid (duplicate (grid_to_block $0) east 1) false)),True
+a416b8f3.json,(lambda (to_min_grid (duplicate (grid_to_block $0) east 1) false)),True
+a416b8f3.json,(lambda (to_min_grid (duplicate (grid_to_block $0) east 1) false)),True
+a740d043.json,(lambda (to_min_grid (remove_color (grid_to_block $0) blue) false)),True
+a740d043.json,(lambda (to_min_grid (remove_color (grid_to_block $0) blue) false)),True
+a740d043.json,(lambda (to_min_grid (remove_color (grid_to_block $0) blue) false)),True
+a79310a0.json,(lambda (to_original_grid_overlay (move (replace_color (grid_to_block $0) teal red) 1 south false) false)),True
+a79310a0.json,(lambda (to_original_grid_overlay (move (replace_color (grid_to_block $0) teal red) 1 south false) false)),True
+a79310a0.json,(lambda (to_original_grid_overlay (move (replace_color (grid_to_block $0) teal red) 1 south false) false)),True
+a79310a0.json,(lambda (to_original_grid_overlay (fill_color (remove_black_b (move (grid_to_block $0) 1 south false)) red) false)),True
+a79310a0.json,(lambda (to_original_grid_overlay (fill_color (remove_black_b (move (grid_to_block $0) 1 south false)) red) false)),True
+a79310a0.json,(lambda (to_original_grid_overlay (fill_color (remove_black_b (move (grid_to_block $0) 1 south false)) red) false)),True
+aabf363d.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (remove_black_b (grid_to_block $0)) (nth_primary_color (grid_to_block $0) 2)) (lambda (negate_boolean (tile_overlaps_block $0 (merge_blocks (tiles_to_blocks (find_tiles_by_black_b $1)) false))))) false)),True
+aabf363d.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (remove_black_b (grid_to_block $0)) (nth_primary_color (grid_to_block $0) 2)) (lambda (negate_boolean (tile_overlaps_block $0 (merge_blocks (tiles_to_blocks (find_tiles_by_black_b $1)) false))))) false)),True
+aabf363d.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (remove_black_b (grid_to_block $0)) (nth_primary_color (grid_to_block $0) 2)) (lambda (negate_boolean (tile_overlaps_block $0 (merge_blocks (tiles_to_blocks (find_tiles_by_black_b $1)) false))))) false)),True
+ae4f1146.json,(lambda (to_min_grid (first_of_sorted_object_list (find_blocks_by_color $0 blue true false) (lambda (get_num_tiles $0)) false) true)),True
+ae4f1146.json,(lambda (to_min_grid (first_of_sorted_object_list (find_blocks_by_color $0 blue true false) (lambda (get_num_tiles $0)) false) true)),True
+ae4f1146.json,(lambda (to_min_grid (first_of_sorted_object_list (find_blocks_by_color $0 blue true false) (lambda (get_num_tiles $0)) false) true)),True
+aedd82e4.json,(lambda (to_original_grid_overlay (fill_color (merge_blocks (tiles_to_blocks (find_tiles_by_black_b $0)) false) blue) true)),True
+aedd82e4.json,(lambda (to_original_grid_overlay (fill_color (merge_blocks (tiles_to_blocks (find_tiles_by_black_b $0)) false) blue) true)),True
+aedd82e4.json,(lambda (to_original_grid_overlay (fill_color (merge_blocks (tiles_to_blocks (find_tiles_by_black_b $0)) false) blue) true)),True
+b1948b0a.json,(lambda (to_min_grid (replace_color (grid_to_block $0) pink red) false)),True
+b1948b0a.json,(lambda (to_min_grid (replace_color (grid_to_block $0) pink red) false)),True
+b1948b0a.json,(lambda (to_min_grid (replace_color (grid_to_block $0) pink red) false)),True
+b8825c91.json,(lambda (to_min_grid (reflect (remove_color (grid_to_block $0) yellow) false) true)),False
+b8825c91.json,(lambda (to_min_grid (reflect (remove_color (grid_to_block $0) yellow) false) true)),False
+b8825c91.json,(lambda (to_min_grid (reflect (remove_color (grid_to_block $0) yellow) false) true)),False
+bb43febb.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (merge_blocks (find_blocks_by_inferred_b $0 false false) false) red) (lambda (is_interior $0 true))) true)),False
+bb43febb.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (merge_blocks (find_blocks_by_inferred_b $0 false false) false) red) (lambda (is_interior $0 true))) true)),False
+bb43febb.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (merge_blocks (find_blocks_by_inferred_b $0 false false) false) red) (lambda (is_interior $0 true))) true)),False
+bb43febb.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (remove_black_b (grid_to_block $0)) red) (lambda (is_interior $0 true))) true)),True
+bb43febb.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (remove_black_b (grid_to_block $0)) red) (lambda (is_interior $0 true))) true)),True
+bb43febb.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (remove_black_b (grid_to_block $0)) red) (lambda (is_interior $0 true))) true)),True
+c59eb873.json,(lambda (to_min_grid (grow (grid_to_block $0) 1) false)),True
+c59eb873.json,(lambda (to_min_grid (grow (grid_to_block $0) 1) false)),True
+c59eb873.json,(lambda (to_min_grid (grow (grid_to_block $0) 1) false)),True
+c8f0f002.json,(lambda (to_min_grid (replace_color (grid_to_block $0) orange grey) false)),True
+c8f0f002.json,(lambda (to_min_grid (replace_color (grid_to_block $0) orange grey) false)),True
+c8f0f002.json,(lambda (to_min_grid (replace_color (grid_to_block $0) orange grey) false)),True
+c909285e.json,(lambda (to_min_grid (first_of_sorted_object_list (filter_blocks (find_same_color_blocks $0 true false) (lambda (is_symmetrical $0 false))) (lambda (get_num_tiles $0)) false) true)),True
+c909285e.json,(lambda (to_min_grid (first_of_sorted_object_list (filter_blocks (find_same_color_blocks $0 true false) (lambda (is_symmetrical $0 false))) (lambda (get_num_tiles $0)) false) true)),True
+c909285e.json,(lambda (to_min_grid (first_of_sorted_object_list (filter_blocks (find_same_color_blocks $0 true false) (lambda (is_symmetrical $0 false))) (lambda (get_num_tiles $0)) false) true)),True
+c9e6f938.json,(lambda (to_min_grid (move (reflect (grid_to_block $0) false) 3 east true) true)),True
+c9e6f938.json,(lambda (to_min_grid (move (reflect (grid_to_block $0) false) 3 east true) true)),True
+c9e6f938.json,(lambda (to_min_grid (move (reflect (grid_to_block $0) false) 3 east true) true)),True
+c9e6f938.json,(lambda (to_min_grid (box_block (move (reflect (grid_to_block $0) false) 3 east true)) false)),True
+c9e6f938.json,(lambda (to_min_grid (box_block (move (reflect (grid_to_block $0) false) 3 east true)) false)),True
+c9e6f938.json,(lambda (to_min_grid (box_block (move (reflect (grid_to_block $0) false) 3 east true)) false)),True
+ce22a75a.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (fill_color (wrap_block (remove_black_b (grid_to_block $1)) blue true) blue))) true false)),True
+ce22a75a.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (fill_color (wrap_block (remove_black_b (grid_to_block $1)) blue true) blue))) true false)),True
+ce22a75a.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (fill_color (wrap_block (remove_black_b (grid_to_block $1)) blue true) blue))) true false)),True
+ce22a75a.json,(lambda (to_original_grid_overlay (fill_color (wrap_block (remove_black_b (grid_to_block $0)) blue true) blue) true)),True
+ce22a75a.json,(lambda (to_original_grid_overlay (fill_color (wrap_block (remove_black_b (grid_to_block $0)) blue true) blue) true)),True
+ce22a75a.json,(lambda (to_original_grid_overlay (fill_color (wrap_block (remove_black_b (grid_to_block $0)) blue true) blue) true)),True
+ce4f8723.json,(lambda (overlap_split_blocks (split_grid $0 true) (lambda (lambda (color_logical $0 $1 green lor))))),True
+ce4f8723.json,(lambda (overlap_split_blocks (split_grid $0 true) (lambda (lambda (color_logical $0 $1 green lor))))),True
+ce4f8723.json,(lambda (overlap_split_blocks (split_grid $0 true) (lambda (lambda (color_logical $0 $1 green lor))))),True
+d037b0a7.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (extend_towards_until_edge $0 south))) false false)),True
+d037b0a7.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (extend_towards_until_edge $0 south))) false false)),True
+d037b0a7.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (extend_towards_until_edge $0 south))) false false)),True
+d23f8c26.json,(lambda (to_min_grid (fill_color (merge_blocks (splitblocks_to_blocks (split_grid $0 false)) true) (nth_primary_color (grid_to_block $0) 0)) true)),True
+d23f8c26.json,(lambda (to_min_grid (fill_color (merge_blocks (splitblocks_to_blocks (split_grid $0 false)) true) (nth_primary_color (grid_to_block $0) 0)) true)),True
+d23f8c26.json,(lambda (to_min_grid (fill_color (merge_blocks (splitblocks_to_blocks (split_grid $0 false)) true) (nth_primary_color (grid_to_block $0) 0)) true)),True
+d43fd935.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (extend_until_touches_block $0 (first_of_sorted_object_list (find_same_color_blocks $1 true true) (lambda (get_num_tiles $0)) false) false))) true true)),True
+d43fd935.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (extend_until_touches_block $0 (first_of_sorted_object_list (find_same_color_blocks $1 true true) (lambda (get_num_tiles $0)) false) false))) true true)),True
+d43fd935.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (extend_until_touches_block $0 (first_of_sorted_object_list (find_same_color_blocks $1 true true) (lambda (get_num_tiles $0)) false) false))) true true)),True
+d5d6de2d.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (merge_blocks (find_same_color_blocks $0 true true) false) green) (lambda (is_interior $0 true))) false)),True
+d5d6de2d.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (merge_blocks (find_same_color_blocks $0 true true) false) green) (lambda (is_interior $0 true))) false)),True
+d5d6de2d.json,(lambda (to_original_grid_overlay (filter_block_tiles (fill_color (merge_blocks (find_same_color_blocks $0 true true) false) green) (lambda (is_interior $0 true))) false)),True
+d9fac9be.json,(lambda (to_min_grid (filter_block_tiles (remove_black_b (grid_to_block $0)) (lambda (is_interior $0 true))) false)),True
+d9fac9be.json,(lambda (to_min_grid (filter_block_tiles (remove_black_b (grid_to_block $0)) (lambda (is_interior $0 true))) false)),True
+d9fac9be.json,(lambda (to_min_grid (filter_block_tiles (remove_black_b (grid_to_block $0)) (lambda (is_interior $0 true))) false)),True
+dae9d2b5.json,(lambda (overlap_split_blocks (split_grid $0 false) (lambda (lambda (color_logical $0 $1 pink lor))))),True
+dae9d2b5.json,(lambda (overlap_split_blocks (split_grid $0 false) (lambda (lambda (color_logical $0 $1 pink lor))))),True
+dae9d2b5.json,(lambda (overlap_split_blocks (split_grid $0 false) (lambda (lambda (color_logical $0 $1 pink lor))))),True
+ded97339.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (extend_until_touches_block $0 (first_of_sorted_object_list (find_same_color_blocks $1 true true) (lambda (get_num_tiles (extend_until_touches_block $1 $0 false))) false) false))) true true)),True
+ded97339.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (extend_until_touches_block $0 (first_of_sorted_object_list (find_same_color_blocks $1 true true) (lambda (get_num_tiles (extend_until_touches_block $1 $0 false))) false) false))) true true)),True
+ded97339.json,(lambda (blocks_to_original_grid (map_tiles (find_tiles_by_black_b $0) (lambda (extend_until_touches_block $0 (first_of_sorted_object_list (find_same_color_blocks $1 true true) (lambda (get_num_tiles (extend_until_touches_block $1 $0 false))) false) false))) true true)),True
+f25ffba3.json,(lambda (to_original_grid_overlay (remove_black_b (reflect (grid_to_block $0) true)) true)),True
+f25ffba3.json,(lambda (to_original_grid_overlay (remove_black_b (reflect (grid_to_block $0) true)) true)),True
+f25ffba3.json,(lambda (to_original_grid_overlay (remove_black_b (reflect (grid_to_block $0) true)) true)),True

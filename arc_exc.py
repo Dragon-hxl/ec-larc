@@ -24,9 +24,6 @@ from dreamcoder.type import Context, arrow, tbool, tlist, tint, t0, UnificationF
 from dreamcoder.program import Program
 from dreamcoder.domains.arc.arcPrimitives import *
 
-
-example={"input": [[0, 9, 9, 5], [0, 4, 0, 0], [0, 4, 0, 0], [0, 0, 0, 0]], "output": [[0, 2, 8, 2], [0, 8, 0, 0], [0, 2, 0, 0], [0, 0, 0, 0]]}
-
 class ArcTask(Task):
     def __init__(self, name, request, examples, evalExamples, features=None, cache=False, sentences=[]):
         super().__init__(name, request, examples, features=features, cache=cache)
@@ -141,8 +138,8 @@ def exc_program(taskname,example,program):
 if __name__ == "__main__":
     task1_path = "./arc_data/data/training"
     task2_path = "./arc_data/data/evaluation"
-    program_path = "./data/arc/all_programs_nl_paragraphs.csv"
-    write_path = "./all_program_check.csv"
+    program_path = "./data/arc/best_programs_nl_sentences.csv"
+    write_path = "./best_program_check.csv"
     write_file = open(write_path,"w")
     writer = csv.writer(write_file)
     writer.writerow(["task","program","pass"])
@@ -150,9 +147,16 @@ if __name__ == "__main__":
     total_num = 0
     pass_num = 0
     non_pass_p = set()
+    total_task = set()
+    non_pass_task = set()
     for row in reader:
         taskname = row[0]
+        if taskname == "":
+            continue
+        if taskname not in total_task:
+            total_task.add(taskname)
         program = row[1]
+        print(taskname,program)
         flag = True
         if os.path.exists(task1_path+"/"+taskname):
             f = open(task1_path+"/"+taskname,"rb")
@@ -182,16 +186,20 @@ if __name__ == "__main__":
                     flag = False
         else:
             print("no task")
-            continue
+            flag = False
         total_num += 1
         if flag:
             pass_num += 1
         else:
             non_pass_p.add(program)
+            if taskname not in non_pass_task:
+                non_pass_task.add(taskname)
         writer.writerow([taskname,program,flag])
     print("total_num",total_num)
     print("pass_num",pass_num)
-    print("non_pass_p",len(non_pass_p),non_pass_p)
+    print("total_task",len(total_task))
+    print("non_pass_p",len(non_pass_p))
+    print("non_pass_task",len(non_pass_task))
 
 
         
